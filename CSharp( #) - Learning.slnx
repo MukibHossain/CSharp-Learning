@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="01-HelloWorld/01-HelloWorld.csproj" />
+  <Project Path="Largest Among Three Integer/Largest Among Three Integer.csproj" Id="89083efd-76f9-40ee-a54d-d4f7a9dc6133" />
   <Project Path="Leap-Year/Leap-Year.csproj" Id="bac6f271-d705-47eb-9ddd-d581323320a9" />
 </Solution>
