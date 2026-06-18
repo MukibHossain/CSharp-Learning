@@ -1,5 +1,5 @@
-﻿using system;
-class program
+﻿using System;
+class Program
 {
     static void Main()
     {
@@ -12,6 +12,20 @@ class program
         Console.Write("Enter last number: ");
         int num3 = Convert.ToInt32(Console.ReadLine());
 
-        int largest
+        int largest = num1;
+
+        //Compare with other numbers
+
+        if(num2 > largest)
+        {
+            largest = num2;
+        }
+
+        if(num3 > largest)
+        {
+            largest = num3;
+        }
+
+        Console.WriteLine("The largest number is: " + largest);
     }
 }
