@@ -4,4 +4,5 @@
   <Project Path="Largest Among Three Integer/Largest Among Three Integer.csproj" Id="89083efd-76f9-40ee-a54d-d4f7a9dc6133" />
   <Project Path="Leap-Year/Leap-Year.csproj" Id="bac6f271-d705-47eb-9ddd-d581323320a9" />
   <Project Path="Longest Word from a Sentence/Longest Word from a Sentence.csproj" Id="36372b97-8f0f-4593-bf35-b2c7bb01a4c4" />
+  <Project Path="Search an Element in Array/Search an Element in Array.csproj" Id="f722fab4-1f7a-47f3-8ff1-2225d8e57782" />
 </Solution>
