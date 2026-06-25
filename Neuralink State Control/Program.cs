@@ -16,5 +16,19 @@ class NeuralinkDevice
     }
 }
 
+class Program
+{
+    static void Main()
+    {
+        NeuralinkDevice device = new NeuralinkDevice();
 
+        device.SwitchMode(ImplantMode.Idle);
+
+        device.SwitchMode(ImplantMode.DataProcessing);
+
+        device.SwitchMode(ImplantMode.NeuroStimulation);
+
+        device.SwitchMode(ImplantMode.SleepMode);
+    }
+}
 
