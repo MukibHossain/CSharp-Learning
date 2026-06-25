@@ -29,3 +29,14 @@ class BankAccount
     }
 }
 
+class Program
+{
+    static void Main()
+    {
+        BankAccount account = new BankAccount();
+
+        account.Deposit(1500);
+        account.Withdraw(300);
+        account.CheckBalance();
+    }
+}
