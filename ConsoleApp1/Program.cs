@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number:");
+            Console.Write("Enter a number: ");
             int n = int.Parse(Console.ReadLine());
             int count = 0;
 
