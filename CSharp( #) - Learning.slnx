@@ -1,7 +1,6 @@
 <Solution>
   <Project Path="01-HelloWorld/01-HelloWorld.csproj" />
   <Project Path="Bank Account Management/Bank Account Management.csproj" Id="d9d4db89-51d0-410c-9a9f-cbd5cedcf2c9" />
-  <Project Path="ConsoleApp1/Prime Number Checker.csproj" Id="e4fb83de-f8a2-4336-badf-0e4e5d3cd941" />
   <Project Path="Count Duplicate Elements/Count Duplicate Elements.csproj" Id="0e8065ec-631a-4d9b-866e-ccc51714fc18" />
   <Project Path="Determine Quadrant/Determine Quadrant.csproj" Id="6f59145c-e83c-465b-bf53-a6082cdab6ae" />
   <Project Path="Find Second Largest Number in Array/Find Second Largest Number in Array.csproj" Id="c54686d1-e3af-4622-b75f-7e434ad925fb" />
@@ -9,6 +8,7 @@
   <Project Path="Leap-Year/Leap-Year.csproj" Id="bac6f271-d705-47eb-9ddd-d581323320a9" />
   <Project Path="Longest Word from a Sentence/Longest Word from a Sentence.csproj" Id="36372b97-8f0f-4593-bf35-b2c7bb01a4c4" />
   <Project Path="Neuralink State Control/Neuralink State Control.csproj" Id="b5cb015a-4f74-4e25-bcec-3727de8cad34" />
+  <Project Path="Prime Number Checker/Prime Number Checker.csproj" Id="e4fb83de-f8a2-4336-badf-0e4e5d3cd941" />
   <Project Path="Print All Longest Words/Print All Longest Words.csproj" Id="17f63d12-4fdc-4e91-aa49-196b5d5784c8" />
   <Project Path="Rocket Launch Simulation/Rocket Launch Simulation.csproj" Id="e4161784-3d6b-4d49-a256-14451bfc560b" />
   <Project Path="Search an Element in Array/Search an Element in Array.csproj" Id="f722fab4-1f7a-47f3-8ff1-2225d8e57782" />
