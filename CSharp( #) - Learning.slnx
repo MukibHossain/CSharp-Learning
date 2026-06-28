@@ -4,6 +4,7 @@
   <Project Path="Bank Account Management/Bank Account Management.csproj" Id="d9d4db89-51d0-410c-9a9f-cbd5cedcf2c9" />
   <Project Path="Count Duplicate Elements/Count Duplicate Elements.csproj" Id="0e8065ec-631a-4d9b-866e-ccc51714fc18" />
   <Project Path="Determine Quadrant/Determine Quadrant.csproj" Id="6f59145c-e83c-465b-bf53-a6082cdab6ae" />
+  <Project Path="Enumeration1/Enumeration1.csproj" Id="99926179-901c-405c-b805-2f30a7847fb4" />
   <Project Path="Find Second Largest Number in Array/Find Second Largest Number in Array.csproj" Id="c54686d1-e3af-4622-b75f-7e434ad925fb" />
   <Project Path="Largest Among Three Integer/Largest Among Three Integer.csproj" Id="89083efd-76f9-40ee-a54d-d4f7a9dc6133" />
   <Project Path="Leap-Year/Leap-Year.csproj" Id="bac6f271-d705-47eb-9ddd-d581323320a9" />
