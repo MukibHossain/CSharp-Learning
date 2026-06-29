@@ -33,7 +33,7 @@ class Program
     {
         TeslaCar car = new TeslaCar();
 
-        Console.Write("Enter Road Condition: (Highway/Urban/Rain) ");
+        Console.Write("Enter Road Condition: (Highway/Urban/Rain/muddyroad) ");
         string road = Console.ReadLine();
 
         if (road == "Highway")
@@ -47,6 +47,10 @@ class Program
         else if (road == "Rain")
         {
             car.SetAutonomy(AutonomyLevel.EmergencyOverride);
+        }
+        else if (road == "muddyroad")
+        {
+            car.SetAutonomy(AutonomyLevel.Manual);
         }
         else
         {
