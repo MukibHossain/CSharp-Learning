@@ -21,9 +21,9 @@ class Program
     {
         Console.Write("Enter Grade: ");
 
-        string input = Console.ReadLine().ToUpper();
+        string x = Console.ReadLine().ToUpper();
 
-        switch (input)
+        switch (x)
         {
             case "A":
                 Console.WriteLine("Excellent");
