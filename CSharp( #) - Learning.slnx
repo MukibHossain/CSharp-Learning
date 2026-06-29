@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="01-HelloWorld/01-HelloWorld.csproj" />
+  <Project Path="Array All/AddArr/AddArr.csproj" Id="14bb5f3b-79ea-419b-a609-4cb5455f2ef4" />
   <Project Path="Array All/ArrayNum/ArrayNum.csproj" Id="5cecd1f6-8eb1-48bd-beff-ee3467e03042" />
   <Project Path="Array All/Matrix/Matrix.csproj" Id="69436adf-f1e6-411d-b16b-77e21d4ba3f5" />
   <Project Path="Array All/Search/Search.csproj" Id="5ac2f8b0-571a-41c2-86c6-1c6f5c516d42" />
