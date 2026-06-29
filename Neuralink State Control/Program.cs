@@ -1,5 +1,15 @@
-﻿using System;
+﻿//Problem 2:
+//Scenario: Neuralink implants operate in multiple modes (Idle, DataProcessing,
+//NeuroStimulation, SleepMode). The implant's behavior depends on the input from neural
+//signals.
+//Problem Statement:
+//Create an enum ImplantMode to represent different operating states of a Neuralink
+//implant.
+//Implement a class NeuralinkDevice with a method SwitchMode(ImplantMode mode)
+//that allows changing modes based on external triggers.
+//Simulate a Neuralink device that cycles through different states based on user input.
 
+using System;
 enum ImplantMode
 {
     Idle,

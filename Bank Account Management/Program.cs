@@ -1,4 +1,12 @@
-﻿using System;
+﻿//4.Write a C# program for a bank account.
+
+//Requirements:
+//Create a method Deposit() that increases the account balance.
+//Create a method Withdraw() that decreases the balance (only if enough money exists).
+//Create a method CheckBalance() that displays the current balance.
+//Use these methods from the Main() function.
+
+using System;
 
 class BankAccount
 {

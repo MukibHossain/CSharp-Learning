@@ -1,5 +1,21 @@
-﻿using System;
+﻿//Problem 1:
+//Scenario: SpaceX rockets have multiple stages, each serving a different purpose during a
+//launch. You need to create an enumeration that represents different rocket stages (PreLaunch,
+//Liftoff, StageSeparation, OrbitInsertion, Reentry, Landing).
+//Problem Statement:
+//Define an enum RocketStage representing the different stages of a rocket launch.
+//Write a Rocket class that has a method AdvanceStage() to transition to the next stage.
+//Implement a program that simulates a SpaceX rocket launch by advancing through all
+//stages and printing the current stage.
+//Output:
+//Preparing for launch.
+//Liftoff! Rocket is ascending.
+//Stage separation successful.
+//Rocket has reached orbit.
+//Reentering Earth's atmosphere.
+//Rocket has landed successfully.
 
+using System;
 enum RocketStage
 {
     PreLaunch,
