@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="01-HelloWorld/01-HelloWorld.csproj" />
   <Project Path="Array All/ArrayNum/ArrayNum.csproj" Id="5cecd1f6-8eb1-48bd-beff-ee3467e03042" />
+  <Project Path="Array All/SortNum/SortNum.csproj" Id="d63c4731-4592-4d61-b988-2951f8eb4253" />
   <Project Path="Arrays1/Arrays1.csproj" Id="f5f46c84-988f-4803-85e5-a4e79ec2209b" />
   <Project Path="Bank Account Management/Bank Account Management.csproj" Id="d9d4db89-51d0-410c-9a9f-cbd5cedcf2c9" />
   <Project Path="ConsoleApp1/Student Constructor.csproj" Id="6230307b-65ff-42af-8e90-7f12e136d711" />

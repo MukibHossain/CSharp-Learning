@@ -1,5 +1,9 @@
-﻿using System;
-
+﻿//Question 1: Write a C# program that:
+//• Takes 10 integer values as input and stores them in an array.
+//• Finds the largest and smallest numbers.
+//• Calculates the average of all elements.
+//• Displays all results.
+using System;
 class ArrayNum
 {
     static void Main()
