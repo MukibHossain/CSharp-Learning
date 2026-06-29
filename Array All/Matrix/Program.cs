@@ -1,5 +1,10 @@
-﻿using System;
+﻿//Question 3: Write a C# program that:
+//• Creates a 2D integer array of size 3x3.
+//• Accepts values from the user to fill the matrix.
+//• Calculates and displays the sum of each row and each column.
+//• Finds the overall maximum element in the matrix.
 
+using System;
 class Matrix
 {
     static void Main()
