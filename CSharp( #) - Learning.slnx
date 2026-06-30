@@ -19,6 +19,7 @@
   <Project Path="indexer2/indexer2.csproj" Id="c6c5706b-b2b8-4541-847a-a27f6de88ee8" />
   <Project Path="Inheritance All/Q1 - Single Inheritance/Q1 - Single Inheritance.csproj" Id="bb0dcb43-f304-4648-9a6e-12d98e444984" />
   <Project Path="Inheritance All/Q2-Multilevel Inheritance/Q2-Multilevel Inheritance.csproj" Id="2c11a74b-67dd-4819-a56b-9c164dfc4fa0" />
+  <Project Path="Inheritance All/Q3 - Hierarchical Inheritance/Q3 - Hierarchical Inheritance.csproj" Id="663dc5ac-2527-4aa1-939a-655baad956a5" />
   <Project Path="Largest Among Three Integer/Largest Among Three Integer.csproj" Id="89083efd-76f9-40ee-a54d-d4f7a9dc6133" />
   <Project Path="Leap-Year/Leap-Year.csproj" Id="bac6f271-d705-47eb-9ddd-d581323320a9" />
   <Project Path="Longest Word from a Sentence/Longest Word from a Sentence.csproj" Id="36372b97-8f0f-4593-bf35-b2c7bb01a4c4" />
