@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="01-HelloWorld/01-HelloWorld.csproj" />
+  <Project Path="A draf code just for testing/A draf code just for testing.csproj" Id="b6cfcb01-7b7b-4983-ad37-6315b7dc44ae" />
   <Project Path="Array All/AddArr/AddArr.csproj" Id="14bb5f3b-79ea-419b-a609-4cb5455f2ef4" />
   <Project Path="Array All/ArrayNum/ArrayNum.csproj" Id="5cecd1f6-8eb1-48bd-beff-ee3467e03042" />
   <Project Path="Array All/Matrix/Matrix.csproj" Id="69436adf-f1e6-411d-b16b-77e21d4ba3f5" />
@@ -16,6 +17,7 @@
   <Project Path="Indexer1/Indexer1.csproj" Id="c999e16f-871e-43c6-bd98-355d9c91cb4d" />
   <Project Path="Indexer11/Indexer11.csproj" Id="04e4f6fb-d10e-4c86-a739-04237736d0b9" />
   <Project Path="indexer2/indexer2.csproj" Id="c6c5706b-b2b8-4541-847a-a27f6de88ee8" />
+  <Project Path="Inheritance All/Q1 - Single Inheritance/Q1 - Single Inheritance.csproj" Id="bb0dcb43-f304-4648-9a6e-12d98e444984" />
   <Project Path="Largest Among Three Integer/Largest Among Three Integer.csproj" Id="89083efd-76f9-40ee-a54d-d4f7a9dc6133" />
   <Project Path="Leap-Year/Leap-Year.csproj" Id="bac6f271-d705-47eb-9ddd-d581323320a9" />
   <Project Path="Longest Word from a Sentence/Longest Word from a Sentence.csproj" Id="36372b97-8f0f-4593-bf35-b2c7bb01a4c4" />
