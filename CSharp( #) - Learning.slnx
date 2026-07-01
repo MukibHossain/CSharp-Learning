@@ -32,4 +32,5 @@
   <Project Path="Teacher Inheritance/Teacher Inheritance.csproj" Id="328b54c0-b7d2-4fce-8647-5a1a87fe3dfc" />
   <Project Path="Tesla Self-Driving System/Tesla Self-Driving System.csproj" Id="2c16243a-06df-4310-a5f7-7732139b8910" />
   <Project Path="The Car Class — Default Constructor/The Car Class — Default Constructor.csproj" Id="73e617fa-bf48-4f61-b158-5da22e956b78" />
+  <Project Path="The Student Class — Parameterized Constructor/The Student Class — Parameterized Constructor.csproj" Id="7fbf291b-936d-4c30-96d2-08372b3fc705" />
 </Solution>
