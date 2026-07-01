@@ -14,7 +14,7 @@ class Student
     {
         Name = name;
         Age = age;
-        Grade = grade;
+        Grade = grade; //grade ase string i.e. A/B/C/D/F/10th grade
     }
 }
 class Program
