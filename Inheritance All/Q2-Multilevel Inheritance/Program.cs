@@ -7,7 +7,6 @@
 //    inheritance by creating a Dog object and calling all the inherited methods.
 
 using System;
-
 class Animal
 {
     // Method of Animal class
@@ -25,7 +24,6 @@ class Mammal : Animal
         Console.WriteLine("Mammal is walking");
     }
 }
-
 class Dog : Mammal
 {
     // Method of Dog class
@@ -34,7 +32,6 @@ class Dog : Mammal
         Console.WriteLine("Dog is barking");
     }
 }
-
 class Program
 {
     static void Main()
