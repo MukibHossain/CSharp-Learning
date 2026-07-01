@@ -1,8 +1,8 @@
 ﻿//Create three classes: Animal, Mammal, and Dog. 
 //    The Animal class should have a method Eat(). 
 //    The Mammal class should inherit from Animal 
-//    and have an additional method Walk(). T
-//    he Dog class should inherit from Mammal and have a method Bark()
+//    and have an additional method Walk(). 
+//    The Dog class should inherit from Mammal and have a method Bark()
 //    . Write a program to demonstrate multilevel 
 //    inheritance by creating a Dog object and calling all the inherited methods.
 
