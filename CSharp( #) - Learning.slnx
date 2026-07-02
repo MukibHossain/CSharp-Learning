@@ -30,6 +30,7 @@
   <Project Path="Print All Longest Words/Print All Longest Words.csproj" Id="17f63d12-4fdc-4e91-aa49-196b5d5784c8" />
   <Project Path="Rocket Launch Simulation/Rocket Launch Simulation.csproj" Id="e4161784-3d6b-4d49-a256-14451bfc560b" />
   <Project Path="Search an Element in Array/Search an Element in Array.csproj" Id="f722fab4-1f7a-47f3-8ff1-2225d8e57782" />
+  <Project Path="Static Field Updated by the Constructor/Static Field Updated by the Constructor.csproj" Id="de6e1dc3-525e-4d4c-9ede-e1289ba7b1cb" />
   <Project Path="Teacher Inheritance/Teacher Inheritance.csproj" Id="328b54c0-b7d2-4fce-8647-5a1a87fe3dfc" />
   <Project Path="Tesla Self-Driving System/Tesla Self-Driving System.csproj" Id="2c16243a-06df-4310-a5f7-7732139b8910" />
   <Project Path="The Book Class — Copy Constructor/The Book Class — Copy Constructor.csproj" Id="e93f56b9-77f1-4984-b38d-1bcdcf3e1471" />
