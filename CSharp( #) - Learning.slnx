@@ -28,6 +28,7 @@
   <Project Path="Neuralink State Control/Neuralink State Control.csproj" Id="b5cb015a-4f74-4e25-bcec-3727de8cad34" />
   <Project Path="Prime Number Checker/Prime Number Checker.csproj" Id="e4fb83de-f8a2-4336-badf-0e4e5d3cd941" />
   <Project Path="Print All Longest Words/Print All Longest Words.csproj" Id="17f63d12-4fdc-4e91-aa49-196b5d5784c8" />
+  <Project Path="Reverse an Array/Reverse an Array.csproj" Id="01c20a20-5b69-4f10-8666-bb29dd992091" />
   <Project Path="Rocket Launch Simulation/Rocket Launch Simulation.csproj" Id="e4161784-3d6b-4d49-a256-14451bfc560b" />
   <Project Path="Search an Element in Array/Search an Element in Array.csproj" Id="f722fab4-1f7a-47f3-8ff1-2225d8e57782" />
   <Project Path="Static Field Updated by the Constructor/Static Field Updated by the Constructor.csproj" Id="de6e1dc3-525e-4d4c-9ede-e1289ba7b1cb" />
