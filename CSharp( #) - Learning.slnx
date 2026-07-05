@@ -8,6 +8,7 @@
   <Project Path="Array All/SortNum/SortNum.csproj" Id="d63c4731-4592-4d61-b988-2951f8eb4253" />
   <Project Path="Arrays1/Arrays1.csproj" Id="f5f46c84-988f-4803-85e5-a4e79ec2209b" />
   <Project Path="Bank Account Management/Bank Account Management.csproj" Id="d9d4db89-51d0-410c-9a9f-cbd5cedcf2c9" />
+  <Project Path="Chain Flow/Chain Flow.csproj" Id="fa207ef2-8823-4432-960c-cc3d2e00e99a" />
   <Project Path="ConsoleApp1/Student Constructor.csproj" Id="6230307b-65ff-42af-8e90-7f12e136d711" />
   <Project Path="Count Duplicate Elements/Count Duplicate Elements.csproj" Id="0e8065ec-631a-4d9b-866e-ccc51714fc18" />
   <Project Path="Default and Parameterized Constructors Together/Default and Parameterized Constructors Together.csproj" Id="19635e0f-d05f-4de3-8ffc-d6968f8cb455" />
