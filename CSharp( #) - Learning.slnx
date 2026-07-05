@@ -42,4 +42,5 @@
   <Project Path="The Car Class — Default Constructor/The Car Class — Default Constructor.csproj" Id="73e617fa-bf48-4f61-b158-5da22e956b78" />
   <Project Path="The Rectangle Class — Overloaded Constructors/The Rectangle Class — Overloaded Constructors.csproj" Id="22a65ca1-6c0a-4280-babb-403264412adc" />
   <Project Path="The Student Class — Parameterized Constructor/The Student Class — Parameterized Constructor.csproj" Id="7fbf291b-936d-4c30-96d2-08372b3fc705" />
+  <Project Path="Virtual Method Inside Constructor/Virtual Method Inside Constructor.csproj" Id="a995d78e-20e4-490f-8344-af293d9b58c4" />
 </Solution>
