@@ -21,6 +21,7 @@
   <Project Path="Indexer1/Indexer1.csproj" Id="c999e16f-871e-43c6-bd98-355d9c91cb4d" />
   <Project Path="Indexer11/Indexer11.csproj" Id="04e4f6fb-d10e-4c86-a739-04237736d0b9" />
   <Project Path="indexer2/indexer2.csproj" Id="c6c5706b-b2b8-4541-847a-a27f6de88ee8" />
+  <Project Path="Inheritance All/Animal, Dog, Bird/Animal, Dog, Bird.csproj" Id="34a36c4f-ae0b-494d-a9d7-89253bfc6bf6" />
   <Project Path="Inheritance All/Car, Truc, Motorcycle/Car, Truc, Motorcycle.csproj" Id="c3c73425-3c57-46ac-81ec-61d367b6ca97" />
   <Project Path="Inheritance All/Child and Inherited/Child and Inherited.csproj" Id="9007b626-59da-4f65-aa69-bd04d3964bcd" />
   <Project Path="Inheritance All/Circle, Rectangle, Triangle/Circle, Rectangle, Triangle.csproj" Id="e294dd94-f44a-40ec-b68a-5189e80ad2a5" />
