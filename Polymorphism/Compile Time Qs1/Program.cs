@@ -29,3 +29,13 @@ class Shape
 }
 
 class program
+{
+    static void Main()
+    {
+        Shape s = new Shape();
+        Console.WriteLine("Circle Area: " + s.Area(5.0));
+        Console.WriteLine("Rectangle Area: " + s.Area(4, 6));
+        Console.WriteLine("Circle Area: " + s.Area(5));
+
+    }
+}
