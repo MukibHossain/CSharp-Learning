@@ -1,8 +1,10 @@
 <Solution>
   <Project Path="01-HelloWorld/01-HelloWorld.csproj" />
   <Project Path="A draf code just for testing/A draf code just for testing.csproj" Id="b6cfcb01-7b7b-4983-ad37-6315b7dc44ae" />
+  <Project Path="Abstract and Interface/abstract + interface ex/abstract + interface ex.csproj" Id="964bcf35-f89e-411e-af76-40eded7e436f" />
   <Project Path="Abstract and Interface/abstract Ex 1/abstract Ex 1.csproj" Id="38882b2d-a40d-4150-936e-6bb0390a1e9d" />
   <Project Path="Abstract and Interface/abstract qs 1/abstract qs 1.csproj" Id="1a58782d-3d6a-40c9-a1df-8a6229f42a97" />
+  <Project Path="Abstract and Interface/interface ex 1/interface ex 1.csproj" Id="1483c212-c86c-46fb-8f87-fb9df9e0f62f" />
   <Project Path="Abstract and Interface/interface qs 1/interface qs 1.csproj" Id="5e3115b6-fce3-4ed7-9000-03cf9e663a44" />
   <Project Path="Abstract Construction/Abstract Construction.csproj" Id="ee440a30-6da9-42e2-a08b-527f1a20a104" />
   <Project Path="Array All/AddArr/AddArr.csproj" Id="14bb5f3b-79ea-419b-a609-4cb5455f2ef4" />
