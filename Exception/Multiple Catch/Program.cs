@@ -3,29 +3,28 @@
 //(**FileNotFoundException**) or any other general exceptions. 
 //Display a userfriendly message if the file is not found, 
 //and ensure the program continues running gracefully.
-
 using System;
+using System.IO;
+
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         try
         {
-            byte b = byte.Parse(args[0]);
+            string text = File.ReadAllText("data.txt");
 
-            Console.WriteLine(b);
+            Console.WriteLine(text);
         }
-        catch (IndexOutOfRangeException)
+        catch (FileNotFoundException)
         {
-            Console.WriteLine("No Argument");
+            Console.WriteLine("File not found.");
         }
-        catch (FormatException)
+        catch (Exception)
         {
-            Console.WriteLine("Not a Number");
+            Console.WriteLine("Something went wrong.");
         }
-        catch (OverflowException)
-        {
-            Console.WriteLine("Number Too Large");
-        }
+
+        Console.WriteLine("Program Finished.");
     }
 }
