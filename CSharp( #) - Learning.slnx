@@ -21,6 +21,7 @@
   <Project Path="Determine Quadrant/Determine Quadrant.csproj" Id="6f59145c-e83c-465b-bf53-a6082cdab6ae" />
   <Project Path="Enum1 [2]/Enum1 [2].csproj" Id="b2f082d3-93ef-4bdd-a316-81e30eaff257" />
   <Project Path="Enumeration1/Enumeration1.csproj" Id="99926179-901c-405c-b805-2f30a7847fb4" />
+  <Project Path="Exception/try-catch/try-catch.csproj" Id="13520886-84b3-4fac-af5c-194aca50bd2b" />
   <Project Path="Find Second Largest Number in Array/Find Second Largest Number in Array.csproj" Id="c54686d1-e3af-4622-b75f-7e434ad925fb" />
   <Project Path="Geometric Shape/Geometric Shape.csproj" Id="18244929-100f-453d-91cc-9b32cbb37a92" />
   <Project Path="Indexer1/Indexer1.csproj" Id="c999e16f-871e-43c6-bd98-355d9c91cb4d" />
