@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="01-HelloWorld/01-HelloWorld.csproj" />
   <Project Path="A draf code just for testing/A draf code just for testing.csproj" Id="b6cfcb01-7b7b-4983-ad37-6315b7dc44ae" />
+  <Project Path="Abstract and Interface/abstract Ex 1/abstract Ex 1.csproj" Id="38882b2d-a40d-4150-936e-6bb0390a1e9d" />
   <Project Path="Abstract and Interface/abstract qs 1/abstract qs 1.csproj" Id="1a58782d-3d6a-40c9-a1df-8a6229f42a97" />
   <Project Path="Abstract and Interface/interface qs 1/interface qs 1.csproj" Id="5e3115b6-fce3-4ed7-9000-03cf9e663a44" />
   <Project Path="Abstract Construction/Abstract Construction.csproj" Id="ee440a30-6da9-42e2-a08b-527f1a20a104" />
