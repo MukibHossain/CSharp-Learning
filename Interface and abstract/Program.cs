@@ -10,7 +10,6 @@ class Car : IVehicle
     {
         Console.WriteLine("Car starting");
     }
-
     public void Stop()
     {
         Console.WriteLine("Car stopping");
@@ -22,7 +21,6 @@ class Bike : IVehicle
     {
         Console.WriteLine("Bike starting");
     }
-
     public void Stop()
     {
         Console.WriteLine("Bike stopping");
@@ -34,12 +32,9 @@ class Program
     {
         Car car = new Car();
         Bike bike = new Bike();
-
         car.Start();
         car.Stop();
-
         Console.WriteLine();
-
         bike.Start();
         bike.Stop();
     }
