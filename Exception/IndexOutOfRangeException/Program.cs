@@ -15,3 +15,9 @@ class Program
 
             Console.WriteLine("Value = " + numbers[index]);
         }
+        catch (IndexOutOfRangeException)
+        {
+            Console.WriteLine("Error: Array index is out of range.");
+        }
+    }
+}
