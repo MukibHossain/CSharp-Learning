@@ -32,10 +32,22 @@ class Program
     {
         Calculator cal = new Calculator();
 
-        Console.WriteLine("Sum of 10 and 20 = " + cal.Calculate(10, 20));
+        Console.Write("Enter two integers (SUM): ");
+        int a = Convert.ToInt32(Console.ReadLine());
+        int b = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Sum = " + cal.Calculate(a, b));
 
-        Console.WriteLine("Product of 2.5 and 4.0 = " + cal.Calculate(2.5, 4.0));
+        Console.Write("Enter two double (Multiply): ");
+        double x = Convert.ToDouble(Console.ReadLine());
+        double y = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Multiplication = " + cal.Calculate(x, y));
 
-        Console.WriteLine("Average of 10, 20 and 30 = " + cal.Calculate(10, 20, 30));
+
+        Console.Write("Enter three integers (Average): ");
+        int p = Convert.ToInt32(Console.ReadLine());
+        int q = Convert.ToInt32(Console.ReadLine());
+        int r = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Average = " + cal.Calculate(p, q, r));
+
     }
 }
