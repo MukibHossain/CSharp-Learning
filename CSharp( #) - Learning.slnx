@@ -48,6 +48,7 @@
   <Project Path="Polymorphism/Calculator (Calculate overload)/Calculator (Calculate overload).csproj" Id="8a2166e1-452a-4384-8a89-36372bb2c11f" />
   <Project Path="Polymorphism/Compile Time Qs1/Compile Time Qs1.csproj" Id="2d00ce08-0815-4242-977f-148df1a1c977" />
   <Project Path="Polymorphism/Run-Time Qs1/Run-Time Qs1.csproj" Id="5203e0e9-1b4d-4d73-9fce-0fe44280301d" />
+  <Project Path="Polymorphism/TemperatureConverter (Convert overload)/TemperatureConverter (Convert overload).csproj" Id="d2f1c1d5-5cc7-40f6-8d34-90d4f9cadfee" />
   <Project Path="Prime Number Checker/Prime Number Checker.csproj" Id="e4fb83de-f8a2-4336-badf-0e4e5d3cd941" />
   <Project Path="Print All Longest Words/Print All Longest Words.csproj" Id="17f63d12-4fdc-4e91-aa49-196b5d5784c8" />
   <Project Path="Remove Duplicates from an Array/Remove Duplicates from an Array.csproj" Id="34eb6400-e83b-4e33-8fbf-a45633cd41c4" />
