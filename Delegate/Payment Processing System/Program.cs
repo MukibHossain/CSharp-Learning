@@ -20,7 +20,6 @@ class Payment
     {
         Console.WriteLine("Paid " + amount + " using Credit Card.");
     }
-
     public static void DebitCard(double amount)
     {
         Console.WriteLine("Paid " + amount + " using Debit Card.");
