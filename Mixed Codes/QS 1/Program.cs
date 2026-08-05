@@ -96,3 +96,27 @@ class SUV : Vehicle, IPremiumService
         return LuxuryCharge + ExtraPassengerCharge;
     }
 }
+class RideSharing
+{
+    static void Main()
+    {
+        Vehicle[] vehicle = new Vehicle[3];
+
+        vehicle[0] = new Car(1, "X", 100, 50);
+        vehicle[1] = new Bike(2, "Y", 50, 5);
+        vehicle[2] = new SUV(3, "Z", 150, 70, 30);
+
+        foreach (Vehicle v in vehicle)
+        {
+            Console.WriteLine("\nVehicle Info");
+            v.Display();
+
+            Console.WriteLine("Total Fare: " + v.CalculateFare());
+
+            if (v is IPremiumService premium)
+            {
+                Console.WriteLine("Premium Charge: " + premium.CalculatePremiumCharge());
+            }
+        }
+    }
+}
