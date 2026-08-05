@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
   <Project Path="01-HelloWorld/01-HelloWorld.csproj" />
   <Project Path="A draf code just for testing/A draf code just for testing.csproj" Id="b6cfcb01-7b7b-4983-ad37-6315b7dc44ae" />
   <Project Path="Abstract and Interface/abstract + interface ex/abstract + interface ex.csproj" Id="964bcf35-f89e-411e-af76-40eded7e436f" />
