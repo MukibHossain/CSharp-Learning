@@ -35,3 +35,29 @@ public abstract class  Employee
 
     public abstract double CalculateSalary();
 }
+
+class Manager : Employee
+{
+    public Manager (int id, string name, double salary) : base(id, name, salary);
+
+    public override double CalculateSalary()
+    {
+        double hra = .3 * BasicSalary;
+        double medical = .2 * BasicSalary;
+
+        return BasicSalary + hra + medical;
+    }
+}
+
+class SoftwareEngineer : Employee
+{
+    public SoftwareEngineer (int id, string name, double salary) : base(id, name, salary);
+
+    public override double CalcuateSalary()
+    {
+        double hra = .2 * BasicSalary;
+        double performanceBonus = .15 * BasicSalary;
+
+        return BasicSalary + hra + performanceBonus;
+    }
+}
