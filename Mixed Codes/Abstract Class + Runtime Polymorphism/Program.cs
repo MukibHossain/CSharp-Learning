@@ -38,7 +38,10 @@ public abstract class  Employee
 
 class Manager : Employee
 {
-    public Manager (int id, string name, double salary) : base(id, name, salary);
+    public Manager (int id, string name, double salary) : base(id, name, salary)
+    {
+
+    }
 
     public override double CalculateSalary()
     {
@@ -51,13 +54,35 @@ class Manager : Employee
 
 class SoftwareEngineer : Employee
 {
-    public SoftwareEngineer (int id, string name, double salary) : base(id, name, salary);
+    public SoftwareEngineer (int id, string name, double salary) : base(id, name, salary)
+    {
 
-    public override double CalcuateSalary()
+    }
+
+    public override double CalculateSalary()
     {
         double hra = .2 * BasicSalary;
         double performanceBonus = .15 * BasicSalary;
 
         return BasicSalary + hra + performanceBonus;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Employee[] emp = new Employee[2];
+
+        emp[0] = new Manager(01, "Mukib", 60000);
+        emp[1] = new SoftwareEngineer(02, "Emon", 45000);
+
+        foreach (Employee e in emp)
+        {
+            e.DisplayInfo();
+            Console.WriteLine("Total Salary: " + e.CalculateSalary());
+            Console.WriteLine();
+
+        }
     }
 }
