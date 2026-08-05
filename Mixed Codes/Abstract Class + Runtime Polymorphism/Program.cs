@@ -42,7 +42,6 @@ class Manager : Employee
     {
 
     }
-
     public override double CalculateSalary()
     {
         double hra = .3 * BasicSalary;
