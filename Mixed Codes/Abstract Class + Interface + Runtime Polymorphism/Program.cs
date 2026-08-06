@@ -34,3 +34,31 @@ abstract class Vehicle
     public abstract double CalculateFare();
 }
 
+// Interface
+interface IPremiumService
+{
+    double CalculatePremiumCharge();
+}
+
+// Car
+class Car : Vehicle, IPremiumService
+{
+    public double LuxuryCharge { get; set; }
+
+    public Car(int id, string name, double fare, double luxury)
+        : base(id, name, fare)
+    {
+        LuxuryCharge = luxury;
+    }
+
+    public override double CalculateFare()
+    {
+        return BaseFare + LuxuryCharge;
+    }
+
+    public double CalculatePremiumCharge()
+    {
+        return LuxuryCharge;
+    }
+}
+
