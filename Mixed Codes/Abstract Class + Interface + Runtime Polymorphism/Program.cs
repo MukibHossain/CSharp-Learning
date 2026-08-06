@@ -102,3 +102,58 @@ class SUV : Vehicle, IPremiumService
         return LuxuryCharge + ExtraPassengerCharge;
     }
 }
+
+
+// Main Class
+class Program
+{
+    static void Main()
+    {
+        Vehicle[] vehicles = new Vehicle[3];
+
+        vehicles[0] = new Car(1, "Hasan", 100, 50);
+        vehicles[1] = new Bike(2, "Rahim", 80, 5);
+        vehicles[2] = new SUV(3, "Karim", 150, 70, 30);
+
+        foreach (Vehicle v in vehicles)
+        {
+            v.DisplayInfo();
+
+            Console.WriteLine("Total Fare: " + v.CalculateFare());
+
+            if (v is IPremiumService premium)
+            {
+                Console.WriteLine("Premium Charge: " + premium.CalculatePremiumCharge());
+            }
+
+            Console.WriteLine();
+        }
+    }
+}
+
+// Main Class
+class Program
+{
+    static void Main()
+    {
+        Vehicle[] vehicles = new Vehicle[3];
+
+        vehicles[0] = new Car(1, "Hasan", 100, 50);
+        vehicles[1] = new Bike(2, "Rahim", 80, 5);
+        vehicles[2] = new SUV(3, "Karim", 150, 70, 30);
+
+        foreach (Vehicle v in vehicles)
+        {
+            v.DisplayInfo();
+
+            Console.WriteLine("Total Fare: " + v.CalculateFare());
+
+            if (v is IPremiumService premium)
+            {
+                Console.WriteLine("Premium Charge: " + premium.CalculatePremiumCharge());
+            }
+
+            Console.WriteLine();
+        }
+    }
+}
