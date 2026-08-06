@@ -62,3 +62,20 @@ class Car : Vehicle, IPremiumService
     }
 }
 
+// Bike
+class Bike : Vehicle
+{
+    public double Distance { get; set; }
+
+    public Bike(int id, string name, double fare, double distance)
+        : base(id, name, fare)
+    {
+        Distance = distance;
+    }
+
+    public override double CalculateFare()
+    {
+        return BaseFare + Distance * 10;
+    }
+}
+
