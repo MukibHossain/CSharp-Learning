@@ -79,3 +79,26 @@ class Bike : Vehicle
     }
 }
 
+// SUV
+class SUV : Vehicle, IPremiumService
+{
+    public double LuxuryCharge { get; set; }
+    public double ExtraPassengerCharge { get; set; }
+
+    public SUV(int id, string name, double fare, double luxury, double extra)
+        : base(id, name, fare)
+    {
+        LuxuryCharge = luxury;
+        ExtraPassengerCharge = extra;
+    }
+
+    public override double CalculateFare()
+    {
+        return BaseFare + LuxuryCharge + ExtraPassengerCharge;
+    }
+
+    public double CalculatePremiumCharge()
+    {
+        return LuxuryCharge + ExtraPassengerCharge;
+    }
+}
