@@ -1,0 +1,9 @@
+﻿//Question 3: Ride Sharing Management System (Abstract Class + Interface + Runtime Polymorphism)
+//Scenario: A ride-sharing company wants to calculate fares for different vehicle types. 
+//Requirements: 1.Create abstract class Vehicle with VehicleID, DriverName, BaseFare, 
+//constructor, DisplayInfo(), and abstract CalculateFare(). 2.Create interface IPremiumService
+//with: double CalculatePremiumCharge(); 3.Create: • Car: Vehicle, IPremiumService(LuxuryCharge;
+//Fare = BaseFare + LuxuryCharge) • Bike: Vehicle(Distance; Fare = BaseFare + Distance * 10) • SUV:
+//Vehicle, IPremiumService(LuxuryCharge, ExtraPassengerCharge; Fare = BaseFare + LuxuryCharge +
+//ExtraPassengerCharge) 4.In Main(), store all objects in Vehicle[], display details and fare 
+//using runtime polymorphism. For premium vehicles, also display the premium charge. 
