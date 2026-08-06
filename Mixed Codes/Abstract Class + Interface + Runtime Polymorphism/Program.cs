@@ -7,3 +7,30 @@
 //Vehicle, IPremiumService(LuxuryCharge, ExtraPassengerCharge; Fare = BaseFare + LuxuryCharge +
 //ExtraPassengerCharge) 4.In Main(), store all objects in Vehicle[], display details and fare 
 //using runtime polymorphism. For premium vehicles, also display the premium charge. 
+
+using System;
+
+// Abstract Class
+abstract class Vehicle
+{
+    public int VehicleID { get; set; }
+    public string DriverName { get; set; }
+    public double BaseFare { get; set; }
+
+    public Vehicle(int id, string name, double fare)
+    {
+        VehicleID = id;
+        DriverName = name;
+        BaseFare = fare;
+    }
+
+    public void DisplayInfo()
+    {
+        Console.WriteLine("Vehicle ID: " + VehicleID);
+        Console.WriteLine("Driver Name: " + DriverName);
+        Console.WriteLine("Base Fare: " + BaseFare);
+    }
+
+    public abstract double CalculateFare();
+}
+
