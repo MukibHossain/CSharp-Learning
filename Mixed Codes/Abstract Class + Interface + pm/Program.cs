@@ -115,3 +115,33 @@ class EmergencyPatient : Patient, IInsurance
         return CalculateBill() * 0.80;
     }
 }
+
+// Main
+class Program
+{
+    static void Main()
+    {
+        Patient[] patients = new Patient[3];
+
+        patients[0] = new IndoorPatient(1, "Hasan", 25, 1000, 3, 2000);
+        patients[1] = new OutdoorPatient(2, "Rahim", 30, 800, 1200);
+        patients[2] = new EmergencyPatient(3, "Karim", 40, 1500, 5000);
+
+        foreach (Patient p in patients)
+        {
+            Console.WriteLine("\n--- Patient Information ---");
+
+            p.DisplayInfo();
+
+            double bill = p.CalculateBill();
+
+            Console.WriteLine("Total Bill: " + bill);
+
+            if (p is IInsurance insurance)
+            {
+                Console.WriteLine("Insurance Claim: " +
+                                  insurance.ClaimAmount());
+            }
+        }
+    }
+}
