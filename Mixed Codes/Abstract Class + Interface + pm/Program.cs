@@ -75,3 +75,43 @@ class IndoorPatient : Patient, IInsurance
     }
 }
 
+// Outdoor Patient
+class OutdoorPatient : Patient
+{
+    public double TestCharge { get; set; }
+
+    public OutdoorPatient(int id, string name, int age, double fee,
+                          double testCharge)
+        : base(id, name, age, fee)
+    {
+        TestCharge = testCharge;
+    }
+
+    public override double CalculateBill()
+    {
+        return ConsultationFee + TestCharge;
+    }
+}
+
+// Emergency Patient
+class EmergencyPatient : Patient, IInsurance
+{
+    public double EmergencyCharge { get; set; }
+
+    public EmergencyPatient(int id, string name, int age, double fee,
+                            double emergencyCharge)
+        : base(id, name, age, fee)
+    {
+        EmergencyCharge = emergencyCharge;
+    }
+
+    public override double CalculateBill()
+    {
+        return ConsultationFee + EmergencyCharge;
+    }
+
+    public double ClaimAmount()
+    {
+        return CalculateBill() * 0.80;
+    }
+}
