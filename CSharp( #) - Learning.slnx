@@ -54,6 +54,7 @@
   <Project Path="Longest Word from a Sentence/Longest Word from a Sentence.csproj" Id="36372b97-8f0f-4593-bf35-b2c7bb01a4c4" />
   <Project Path="Missing Base/Missing Base.csproj" Id="ac217557-730a-44e3-893d-922d11a80cf3" />
   <Project Path="Mixed Chaining/Mixed Chaining.csproj" Id="97ef1349-fc89-4bd5-939a-19ab4fa25374" />
+  <Project Path="Mixed Codes/Abstract Class + Interface + pm/Abstract Class + Interface + pm.csproj" Id="3f30878e-2db5-4a8e-ad6f-d9e964c89265" />
   <Project Path="Mixed Codes/Abstract Class + Interface + Runtime Polymorphism/Abstract Class + Interface + Runtime Polymorphism.csproj" Id="5bb03f52-9f51-45da-8295-d98330065eb4" />
   <Project Path="Mixed Codes/Abstract Class + Runtime Polymorphism/Abstract Class + Runtime Polymorphism.csproj" Id="001049d1-a2ac-4f02-8c82-fb2b13aab289" />
   <Project Path="Mixed Codes/Interface + Runtime Polymorphism/Interface + Runtime Polymorphism.csproj" Id="51c18d15-f82d-41ff-a473-ca3d92cf69bd" />
