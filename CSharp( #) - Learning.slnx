@@ -58,6 +58,7 @@
   <Project Path="Mixed Codes/Abstract Class + Interface + Runtime Polymorphism/Abstract Class + Interface + Runtime Polymorphism.csproj" Id="5bb03f52-9f51-45da-8295-d98330065eb4" />
   <Project Path="Mixed Codes/Abstract Class + Runtime Polymorphism/Abstract Class + Runtime Polymorphism.csproj" Id="001049d1-a2ac-4f02-8c82-fb2b13aab289" />
   <Project Path="Mixed Codes/Interface + Runtime Polymorphism/Interface + Runtime Polymorphism.csproj" Id="51c18d15-f82d-41ff-a473-ca3d92cf69bd" />
+  <Project Path="Mixed Codes/Online Shopping Billing/Online Shopping Billing.csproj" Id="3e42600f-b2e0-40d8-8519-fa72675d351b" />
   <Project Path="Mixed Codes/QS 1/QS 1.csproj" Id="542228cf-a7bc-4842-be41-f92c1f2bf0d4" />
   <Project Path="Mixed Codes/Train Ticket Booking (Built-in Exceptions)/Train Ticket Booking (Built-in Exceptions).csproj" Id="9bff61d3-763d-426d-9a4f-411f9641ab86" />
   <Project Path="Neuralink State Control/Neuralink State Control.csproj" Id="b5cb015a-4f74-4e25-bcec-3727de8cad34" />
@@ -67,6 +68,7 @@
   <Project Path="Polymorphism/Run-Time Qs1/Run-Time Qs1.csproj" Id="5203e0e9-1b4d-4d73-9fce-0fe44280301d" />
   <Project Path="Polymorphism/TemperatureConverter (Convert overload)/TemperatureConverter (Convert overload).csproj" Id="d2f1c1d5-5cc7-40f6-8d34-90d4f9cadfee" />
   <Project Path="Polymorphism/Vehicle → Car/Vehicle → Car.csproj" Id="be6c6ae9-1a3b-4bce-accb-9d75aa4b026d" />
+  <Project Path="Practice/Practice.csproj" Id="f7d0363d-d829-4f34-a7ef-f92e4826b1d1" />
   <Project Path="Prime Number Checker/Prime Number Checker.csproj" Id="e4fb83de-f8a2-4336-badf-0e4e5d3cd941" />
   <Project Path="Print All Longest Words/Print All Longest Words.csproj" Id="17f63d12-4fdc-4e91-aa49-196b5d5784c8" />
   <Project Path="Remove Duplicates from an Array/Remove Duplicates from an Array.csproj" Id="34eb6400-e83b-4e33-8fbf-a45633cd41c4" />
