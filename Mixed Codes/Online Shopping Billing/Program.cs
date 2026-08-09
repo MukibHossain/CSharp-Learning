@@ -63,4 +63,23 @@ class OnlineShopping
                 throw new ArgumentOutOfRangeException(
                     "Quantity must be greater than 0.");
             }
-   
+        }
+        catch (FormatException ex)
+        {
+            Console.WriteLine("Invalid input: " + ex.Message);
+        }
+        catch (OverflowException ex)
+        {
+            Console.WriteLine("Number is too large: " + ex.Message);
+        }
+        catch (ArgumentOutOfRangeException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+
+        product.TotalAmount = product.Price * product.Quantity;
+
+        product.Display();
+    }
+}
