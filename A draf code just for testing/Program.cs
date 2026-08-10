@@ -1,62 +1,65 @@
-﻿// Online C# Editor for free
-// Write, Edit and Run your C# code using C# Online Compiler
+﻿using System;
 
-using System;
-
-public class Student
+class InBal : Exception
 {
-    int studentId;
-    string name;
-    double cgpa;
-    public int StudentId { get; set; }
-    public string Name { get; set; }
-    public double CGPA
+    public InBal(string message) : base(message)
     {
-        get
-        {
-            return cgpa;
-        }
-        set
-        {
-            if (value > 0.0 && value <= 4.0)
-            {
-                cgpa = value;
-            }
-            else
-            {
-                cgpa = 0.0;
-            }
-        }
-    }
-    public Student(int sId, string n, double cg)
-    {
-        StudentId = sId;
-        Name = n;
-        CGPA = cg;
-
     }
 }
-class StudentList
-{
-    private Student[] students = new Student[2];
 
-    public Student this[int index]
+class ATM
+{
+    public double Balance { get; set; }
+
+    public void Display()
     {
-        get { return students[index]; }
-        set { students[index] = value; }
+        Console.WriteLine("Remaining Balance: " + Balance);
     }
 }
+
 class Program
 {
     static void Main()
     {
-        StudentList list = new StudentList();
+        ATM a = new ATM();
+        a.Balance = 15000;
 
-        list[0] = new Student(23, "X", 4.0);
-        list[1] = new Student(24, "Y", 5.0);
+        try
+        {
+            Console.Write("Enter withdraw amount: ");
+            double amount = double.Parse(Console.ReadLine());
 
-        Console.WriteLine(list[0].StudentId + " " +
-                          list[0].Name + " " +
-                          list[0].CGPA);
+            if (amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(
+                    "amount",
+                    "The amount must be greater than 0."
+                );
+            }
+
+            if (amount > a.Balance)
+            {
+                throw new InBal(
+                    "Insufficient balance for this transaction."
+                );
+            }
+
+            a.Balance = a.Balance - amount;
+
+            Console.WriteLine("Withdrawal Successful");
+            a.Display();
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Invalid withdrawal amount.");
+        }
+        catch (ArgumentOutOfRangeException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (InBal ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 }

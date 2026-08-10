@@ -57,6 +57,7 @@
   <Project Path="Mixed Codes/Abstract Class + Interface + pm/Abstract Class + Interface + pm.csproj" Id="3f30878e-2db5-4a8e-ad6f-d9e964c89265" />
   <Project Path="Mixed Codes/Abstract Class + Interface + Runtime Polymorphism/Abstract Class + Interface + Runtime Polymorphism.csproj" Id="5bb03f52-9f51-45da-8295-d98330065eb4" />
   <Project Path="Mixed Codes/Abstract Class + Runtime Polymorphism/Abstract Class + Runtime Polymorphism.csproj" Id="001049d1-a2ac-4f02-8c82-fb2b13aab289" />
+  <Project Path="Mixed Codes/ATM Cash Withdrawal (Custom Exception)/ATM Cash Withdrawal (Custom Exception).csproj" Id="bd67ec03-ee65-4d53-ae6c-f2e18103e601" />
   <Project Path="Mixed Codes/Interface + Runtime Polymorphism/Interface + Runtime Polymorphism.csproj" Id="51c18d15-f82d-41ff-a473-ca3d92cf69bd" />
   <Project Path="Mixed Codes/Online Shopping Billing/Online Shopping Billing.csproj" Id="3e42600f-b2e0-40d8-8519-fa72675d351b" />
   <Project Path="Mixed Codes/Patient Search (Built in Exception)/Patient Search (Built in Exception).csproj" Id="a48f8232-f4b3-47f7-ae19-8cebd883bf7a" />
