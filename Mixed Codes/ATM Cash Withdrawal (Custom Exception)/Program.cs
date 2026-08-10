@@ -26,3 +26,48 @@ class ATM
         Console.WriteLine("\nRemaining Balance : " + Balance);
     }
 }
+
+class Program
+{
+    static void Main()
+    {
+        ATM atm = new ATM();
+
+        atm.Balance = 15000;
+
+        try
+        {
+            Console.Write("Enter Withdrawal Amount: ");
+            double amount = double.Parse(Console.ReadLine());
+
+            if (amount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(
+                    "Withdrawal amount must be greater than 0.");
+            }
+
+            if (amount > atm.Balance)
+            {
+                throw new InsufficientBalanceException(
+                    "Insufficient balance for this transaction.");
+            }
+
+            atm.Balance = atm.Balance - amount;
+
+            Console.WriteLine("Withdrawal Successful.");
+            atm.Display();
+        }
+        catch (FormatException ex)
+        {
+            Console.WriteLine("Invalid withdrawal amount.");
+        }
+        catch (ArgumentOutOfRangeException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (InsufficientBalanceException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}
