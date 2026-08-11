@@ -50,3 +50,39 @@ class Payment
 
 delegate void TicketHandler();
 
+class Airline
+{
+    public event TicketHandler TicketBooked;
+
+    public void BookTicket()
+    {
+        Console.WriteLine("\nTicket Payment Successful.");
+
+
+        TicketBooked();
+    }
+}
+
+
+
+class AirlineService
+{
+    public void SendEmail()
+    {
+        Console.WriteLine("E-ticket sent by Email.");
+    }
+
+    public void SendSMS()
+    {
+        Console.WriteLine("SMS confirmation sent.");
+    }
+
+    public void UpdateSeatAvailability()
+    {
+        Console.WriteLine("Seat availability updated.");
+    }
+}
+
+
+
+
