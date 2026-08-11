@@ -83,6 +83,61 @@ class AirlineService
     }
 }
 
+class Program
+{
+    static void Main()
+    {
 
+        Console.Write("Enter Ticket Price: ");
+        double amount = Convert.ToDouble(Console.ReadLine());
+
+
+        Console.WriteLine("\n1. Credit Card");
+        Console.WriteLine("2. Debit Card");
+        Console.WriteLine("3. bKash");
+
+        Console.Write("Choose Payment Method: ");
+        int choice = Convert.ToInt32(Console.ReadLine());
+
+
+        PaymentDelegate payment = null;
+
+        if (choice == 1)
+        {
+            payment = Payment.CreditCardPayment;
+        }
+        else if (choice == 2)
+        {
+            payment = Payment.DebitCardPayment;
+        }
+        else if (choice == 3)
+        {
+            payment = Payment.BkashPayment;
+        }
+        else
+        {
+            Console.WriteLine("Invalid Choice.");
+            return;
+        }
+
+
+        payment(amount);
+
+
+
+
+        Airline airline = new Airline();
+        AirlineService service = new AirlineService();
+
+
+        airline.TicketBooked += service.SendEmail;
+        airline.TicketBooked += service.SendSMS;
+        airline.TicketBooked += service.UpdateSeatAvailability;
+
+
+        airline.BookTicket();
+        Console.WriteLine("\nTicket Booked Successfully.");
+    }
+}
 
 
