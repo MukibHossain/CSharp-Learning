@@ -56,6 +56,7 @@
   <Project Path="Interface and abstract/Interface and abstract.csproj" Id="2c089249-05f6-4027-ac1d-590685ffd3b1" />
   <Project Path="Largest Among Three Integer/Largest Among Three Integer.csproj" Id="89083efd-76f9-40ee-a54d-d4f7a9dc6133" />
   <Project Path="Leap-Year/Leap-Year.csproj" Id="bac6f271-d705-47eb-9ddd-d581323320a9" />
+  <Project Path="Linq/Linq 1/Linq 1.csproj" Id="2924474c-e81d-4078-aa24-0dc36599dc70" />
   <Project Path="Longest Word from a Sentence/Longest Word from a Sentence.csproj" Id="36372b97-8f0f-4593-bf35-b2c7bb01a4c4" />
   <Project Path="Missing Base/Missing Base.csproj" Id="ac217557-730a-44e3-893d-922d11a80cf3" />
   <Project Path="Mixed Chaining/Mixed Chaining.csproj" Id="97ef1349-fc89-4bd5-939a-19ab4fa25374" />
