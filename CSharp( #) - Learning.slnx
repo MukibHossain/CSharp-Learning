@@ -59,6 +59,8 @@
   <Project Path="Linq/Linq 1/Linq 1.csproj" Id="2924474c-e81d-4078-aa24-0dc36599dc70" />
   <Project Path="Linq/Linq 2/Linq 2.csproj" Id="0bf1b939-4892-45d8-b23e-a7ea6dd0b2d5" />
   <Project Path="Linq/Linq 3/Linq 3.csproj" Id="8396d326-2a3b-4857-90df-8a65a51df38b" />
+  <Project Path="Linq/Linq 4/Linq 4.csproj" Id="7b7c4200-c134-4ca6-92e6-02cde578c698" />
+  <Project Path="Linq/linq 5/linq 5.csproj" Id="a8e825b5-658b-4762-8e57-742dedb286dc" />
   <Project Path="Longest Word from a Sentence/Longest Word from a Sentence.csproj" Id="36372b97-8f0f-4593-bf35-b2c7bb01a4c4" />
   <Project Path="Missing Base/Missing Base.csproj" Id="ac217557-730a-44e3-893d-922d11a80cf3" />
   <Project Path="Mixed Chaining/Mixed Chaining.csproj" Id="97ef1349-fc89-4bd5-939a-19ab4fa25374" />
