@@ -1,7 +1,5 @@
-﻿
-
-//Question 1: 1.Write a C# program where input type of the shape output is the area of that shape.
-
+﻿//Question 1: 1.Write a C# program where input type o
+//f the shape output is the area of that shape.
 using System;
 using System.Collections.Generic;
 using System.Linq;

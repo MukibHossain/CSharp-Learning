@@ -1,13 +1,13 @@
-﻿Define an interface IVehicle with two methods:
-Start() and Stop(). Create two classes, 
-Car and Bike, that implement the IVehicle 
-interface. The Car class should implement
-Start() to print "Car starting..." and Stop()
-to print "Car stopping...". The Bike class should 
-implement Start() to print "Bike starting..." and 
-Stop() to print "Bike stopping...". 
-Write a program that demonstrates interface implementation 
- by creating instances of both Car and Bike and calling their methods.
+﻿//Define an interface IVehicle with two methods:
+//Start() and Stop(). Create two classes, 
+//Car and Bike, that implement the IVehicle 
+//interface. The Car class should implement
+//Start() to print "Car starting..." and Stop()
+//to print "Car stopping...". The Bike class should 
+//implement Start() to print "Bike starting..." and 
+//Stop() to print "Bike stopping...". 
+//Write a program that demonstrates interface implementation 
+// by creating instances of both Car and Bike and calling their methods.
 
 using System;
 interface IVehicle
