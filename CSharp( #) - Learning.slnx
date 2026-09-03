@@ -1,9 +1,9 @@
 <Solution>
   <Folder Name="/01 - Array and Collections/">
-    <Project Path="Array All/AddArr/AddArr.csproj" Id="14bb5f3b-79ea-419b-a609-4cb5455f2ef4" />
-    <Project Path="Array All/ArrayNum/ArrayNum.csproj" Id="5cecd1f6-8eb1-48bd-beff-ee3467e03042" />
-    <Project Path="Array All/Matrix/Matrix.csproj" Id="69436adf-f1e6-411d-b16b-77e21d4ba3f5" />
-    <Project Path="Array All/SortNum/SortNum.csproj" Id="d63c4731-4592-4d61-b988-2951f8eb4253" />
+    <Project Path="01 - Array and Collections/AddArr/AddArr.csproj" />
+    <Project Path="01 - Array and Collections/ArrayNum/ArrayNum.csproj" />
+    <Project Path="01 - Array and Collections/Matrix/Matrix.csproj" />
+    <Project Path="01 - Array and Collections/SortNum/SortNum.csproj" />
     <Project Path="Arrays1/Arrays1.csproj" Id="f5f46c84-988f-4803-85e5-a4e79ec2209b" />
     <Project Path="Count Duplicate Elements/Count Duplicate Elements.csproj" Id="0e8065ec-631a-4d9b-866e-ccc51714fc18" />
     <Project Path="Find Second Largest Number in Array/Find Second Largest Number in Array.csproj" Id="c54686d1-e3af-4622-b75f-7e434ad925fb" />
