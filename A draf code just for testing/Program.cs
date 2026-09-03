@@ -1,65 +1,75 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
-class InBal : Exception
+namespace HospitalPatientManagement
 {
-    public InBal(string message) : base(message)
+    class Patient
     {
+        public int PatientID { get; set; }
+        public string PatientName { get; set; }
+        public int DoctorID { get; set; }
     }
-}
 
-class ATM
-{
-    public double Balance { get; set; }
-
-    public void Display()
+    class Doctor
     {
-        Console.WriteLine("Remaining Balance: " + Balance);
+        public int DoctorID { get; set; }
+        public string DoctorName { get; set; }
+        public string Specialization { get; set; }
     }
-}
 
-class Program
-{
-    static void Main()
+    class Program
     {
-        ATM a = new ATM();
-        a.Balance = 15000;
-
-        try
+        static void Main()
         {
-            Console.Write("Enter withdraw amount: ");
-            double amount = double.Parse(Console.ReadLine());
-
-            if (amount <= 0)
+            List<Patient> patients = new List<Patient>
             {
-                throw new ArgumentOutOfRangeException(
-                    "amount",
-                    "The amount must be greater than 0."
-                );
+                new Patient { PatientID = 1, PatientName = "John",  DoctorID = 101 },
+                new Patient { PatientID = 2, PatientName = "Sara",  DoctorID = 102 },
+                new Patient { PatientID = 3, PatientName = "Mike",  DoctorID = 101 },
+                new Patient { PatientID = 4, PatientName = "Lisa",  DoctorID = 103 },
+                new Patient { PatientID = 5, PatientName = "Tom",   DoctorID = 102 }
+            };
+
+            List<Doctor> doctors = new List<Doctor>
+            {
+                new Doctor { DoctorID = 101, DoctorName = "Dr. Adams",   Specialization = "Cardiology" },
+                new Doctor { DoctorID = 102, DoctorName = "Dr. Bennett", Specialization = "Neurology" },
+                new Doctor { DoctorID = 103, DoctorName = "Dr. Clark",   Specialization = "Cardiology" }
+            };
+
+            // (a) Join Patients with Doctors
+            var patientDoctorInfo =
+                from p in patients
+                join d in doctors on p.DoctorID equals d.DoctorID
+                select new
+                {
+                    p.PatientName,
+                    d.DoctorName,
+                    d.Specialization
+                };
+
+            foreach (var item in patientDoctorInfo)
+            {
+                Console.WriteLine($"Patient: {item.PatientName}, Doctor: {item.DoctorName}, Specialization: {item.Specialization}");
             }
 
-            if (amount > a.Balance)
+            // (b) Group patients by doctor specialization
+            var groupedBySpecialization =
+                from p in patients
+                join d in doctors on p.DoctorID equals d.DoctorID
+                group p by d.Specialization into g
+                select new
+                {
+                    Specialization = g.Key,
+                    PatientCount = g.Count()
+                };
+
+            Console.WriteLine("\n---- (b) Patient Count by Specialization ----");
+            foreach (var item in groupedBySpecialization)
             {
-                throw new InBal(
-                    "Insufficient balance for this transaction."
-                );
+                Console.WriteLine($"Specialization: {item.Specialization}, Number of Patients: {item.PatientCount}");
             }
-
-            a.Balance = a.Balance - amount;
-
-            Console.WriteLine("Withdrawal Successful");
-            a.Display();
-        }
-        catch (FormatException)
-        {
-            Console.WriteLine("Invalid withdrawal amount.");
-        }
-        catch (ArgumentOutOfRangeException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-        catch (InBal ex)
-        {
-            Console.WriteLine(ex.Message);
         }
     }
 }

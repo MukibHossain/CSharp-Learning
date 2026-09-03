@@ -86,6 +86,10 @@
   <Project Path="Polymorphism/Run-Time Qs1/Run-Time Qs1.csproj" Id="5203e0e9-1b4d-4d73-9fce-0fe44280301d" />
   <Project Path="Polymorphism/TemperatureConverter (Convert overload)/TemperatureConverter (Convert overload).csproj" Id="d2f1c1d5-5cc7-40f6-8d34-90d4f9cadfee" />
   <Project Path="Polymorphism/Vehicle → Car/Vehicle → Car.csproj" Id="be6c6ae9-1a3b-4bce-accb-9d75aa4b026d" />
+  <Project Path="Practice/Lab Exam/Deleget/Deleget.csproj" Id="dd40feda-2f09-4822-bfc7-3218d3b6d4db" />
+  <Project Path="Practice/Lab Exam/Linq/Linq.csproj" Id="153eb4be-0f79-4d7d-a4d6-ccafc169a8f7" />
+  <Project Path="Practice/Lab Exam/OOP + linq/OOP + linq.csproj" Id="37b4cbb5-9a90-4d37-8439-ec859639ccf2" />
+  <Project Path="Practice/Lab Exam/OOP/OOP.csproj" Id="d0c925c1-d7c1-426b-ad57-cfe19b59e31e" />
   <Project Path="Practice/Practice.csproj" Id="f7d0363d-d829-4f34-a7ef-f92e4826b1d1" />
   <Project Path="Prime Number Checker/Prime Number Checker.csproj" Id="e4fb83de-f8a2-4336-badf-0e4e5d3cd941" />
   <Project Path="Print All Longest Words/Print All Longest Words.csproj" Id="17f63d12-4fdc-4e91-aa49-196b5d5784c8" />
