@@ -111,6 +111,7 @@
     <Project Path="Linq/linq 5/linq 5.csproj" Id="a8e825b5-658b-4762-8e57-742dedb286dc" />
     <Project Path="Linq/Linq 6/Linq 6.csproj" Id="37e323e8-d285-4ac7-afa3-3db9ba03b2b8" />
     <Project Path="Linq/Linq 7/ConsoleApp1/Linq 7.csproj" Id="bc0fc0ba-1938-4992-9547-0120e744dbf3" />
+    <Project Path="Linq/Linq 8/Linq 8.csproj" Id="380b02f2-b41f-48ed-a7e7-2ea3946fff5a" />
     <Project Path="Practice/Lab Exam/Linq/Linq.csproj" Id="153eb4be-0f79-4d7d-a4d6-ccafc169a8f7" />
   </Folder>
   <Folder Name="/13 - OOP/">
@@ -139,5 +140,4 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
-  <Project Path="Linq/Linq 8/Linq 8.csproj" Id="380b02f2-b41f-48ed-a7e7-2ea3946fff5a" />
 </Solution>
