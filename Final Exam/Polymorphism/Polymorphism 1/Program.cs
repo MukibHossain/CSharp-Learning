@@ -1,13 +1,17 @@
-﻿using System;
+﻿//A company is developing an employee management system. 
+//Different employees may perform tasks using the same method 
+//name but with different parameters. The system also has 
+//different types of employees where a specific employee can provide its own implementation of a common method.
+//Write a C# program for the employee management system that 
+//demonstrates both forms of polymorphism using method overloading
+//and method overriding. 
 
-// =====================================================
-// PART 1: Compile-Time Polymorphism - Method Overloading
-// =====================================================
+
+using System;
 public class Employee
 {
-    public string Name; // no default value now - will be set from user input
+    public string Name; 
 
-    // Same method name "AssignTask", different parameters
     public void AssignTask(string task)
     {
         Console.WriteLine(Name + " is assigned: " + task);
@@ -18,10 +22,6 @@ public class Employee
         Console.WriteLine(Name + " is assigned: " + task + " (deadline: " + days + " days)");
     }
 
-    // =====================================================
-    // PART 2: Run-Time Polymorphism - Method Overriding
-    // =====================================================
-    // "virtual" allows derived classes to override this method
     public virtual void Work()
     {
         Console.WriteLine(Name + " is doing general employee work");
@@ -30,16 +30,15 @@ public class Employee
 
 public class Manager : Employee
 {
-    // Overriding the base class method
+
     public override void Work()
     {
         Console.WriteLine(Name + " (Manager) is managing the team");
     }
 }
-
 public class Developer : Employee
 {
-    // Overriding the base class method
+
     public override void Work()
     {
         Console.WriteLine(Name + " (Developer) is writing code");
@@ -50,29 +49,25 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("---- Method Overloading (Compile-Time) ----");
 
         Employee emp = new Employee();
 
         Console.Write("Enter employee name: ");
-        emp.Name = Console.ReadLine(); // <-- USER INPUT sets the Name
+        emp.Name = Console.ReadLine();
 
         emp.AssignTask("Prepare report");
-        // Calls AssignTask(string) -> matched by ONE argument (a string)
 
         emp.AssignTask("Prepare report", 3);
-        // Calls AssignTask(string, int) -> matched by TWO arguments
 
-        Console.WriteLine();
-        Console.WriteLine("---- Method Overriding (Run-Time) ----");
+
 
         Console.Write("Enter manager name: ");
         Manager mgr = new Manager();
-        mgr.Name = Console.ReadLine(); // <-- USER INPUT sets the Name
+        mgr.Name = Console.ReadLine(); 
 
         Console.Write("Enter developer name: ");
         Developer dev = new Developer();
-        dev.Name = Console.ReadLine(); // <-- USER INPUT sets the Name
+        dev.Name = Console.ReadLine(); 
 
         Employee e1 = emp; // Employee reference to an Employee object
         Employee e2 = mgr; // Employee reference to a Manager object
@@ -81,8 +76,5 @@ class Program
         e1.Work(); // Runs Employee.Work()  -> actual object is Employee
         e2.Work(); // Runs Manager.Work()   -> actual object is Manager
         e3.Work(); // Runs Developer.Work() -> actual object is Developer
-        // Even though e1, e2, e3 are all declared as type "Employee",
-        // the RUNTIME checks the ACTUAL object type to decide which
-        // Work() method to call.
     }
 }
