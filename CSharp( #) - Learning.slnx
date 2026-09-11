@@ -144,10 +144,11 @@
     <Project Path="Final Exam/Delegate and Aggregation/Delegate/Delegate.csproj" Id="6b33467f-d4bb-4ce4-ac33-2e86240fe9dd" />
     <Project Path="Final Exam/Exception Handling/Exception Handle Easy/Exception Handle Easy.csproj" Id="b1c4daf9-75ca-4d01-8422-c5163802a892" />
     <Project Path="Final Exam/Exception Handling/Exception Handle Hard/Exception Handle Hard.csproj" Id="424d2d7b-75d7-4a07-8b6b-721a0f564ae3" />
+    <Project Path="Final Exam/Linq/Linq easy/Linq easy.csproj" Id="9e752da7-482a-44b5-abb6-0bf98dc8463d" />
+    <Project Path="Final Exam/Linq/Linq Hard/Linq Hard.csproj" Id="403c6a94-2a3a-46c9-b66a-e0ff025551ab" />
     <Project Path="Final Exam/Polymorphism/Polymorphism 1/Polymorphism 1.csproj" Id="46cb1881-1804-468d-8e48-ae6a513a9498" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
-  <Project Path="Final Exam/Linq/Linq easy/Linq easy.csproj" Id="9e752da7-482a-44b5-abb6-0bf98dc8463d" />
 </Solution>

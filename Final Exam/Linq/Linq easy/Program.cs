@@ -1,6 +1,5 @@
 ﻿//Use LINQ(write in C# class) to search the information of
 //products from the table that are in category "Electronics" and have a price greater than 500.
-
 //Given Product Table
 //Product ID  Product Name    Category Price   Stock Qty
 //101	Laptop Electronics	750	10
