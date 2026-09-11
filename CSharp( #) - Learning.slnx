@@ -139,6 +139,7 @@
   </Folder>
   <Folder Name="/Final Exam/">
     <Project Path="Final Exam/Abstract Class and Interface/Abstract Class 1/Abstract Class 1.csproj" Id="56bae776-647e-4253-a063-286af9910d04" />
+    <Project Path="Final Exam/Delegate and Aggregation/Aggregation/Aggregation.csproj" Id="719a10e0-bb58-41d2-8b5d-271dcd613c95" />
     <Project Path="Final Exam/Exception Handling/Exception Handle Easy/Exception Handle Easy.csproj" Id="b1c4daf9-75ca-4d01-8422-c5163802a892" />
     <Project Path="Final Exam/Exception Handling/Exception Handle Hard/Exception Handle Hard.csproj" Id="424d2d7b-75d7-4a07-8b6b-721a0f564ae3" />
     <Project Path="Final Exam/Polymorphism/Polymorphism 1/Polymorphism 1.csproj" Id="46cb1881-1804-468d-8e48-ae6a513a9498" />
@@ -146,5 +147,5 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
-  <Project Path="Final Exam/Delegate and Aggregation/Aggregation/Aggregation.csproj" Id="719a10e0-bb58-41d2-8b5d-271dcd613c95" />
+  <Project Path="Final Exam/Delegate and Aggregation/Aggregation CT/Aggregation CT.csproj" Id="dbfe4dff-e270-4dfe-9be1-57ff0f14ca16" />
 </Solution>
